@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.full {
+    display: flex;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    width: 35%;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+.right {
+    width: 65%;
+    padding: 20px;
+}
+
+.image img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.contact h2, .skills h2, .languages h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.contact p, .skills ul, .languages ul {
+    font-size: 14px;
+}
+
+.skills ul, .languages ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li, .languages ul li {
+    background: #34495e;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.name h1 {
+    color: #2c3e50;
+}
+
+.name p {
+    font-size: 18px;
+    color: #777;
+}
+
+.summary, .experience, .education {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: square;
+}
